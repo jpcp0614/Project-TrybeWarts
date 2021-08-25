@@ -1,11 +1,16 @@
-const buttonLogin = document.getElementById('btn');
+const inputLogin = document.querySelector('.input-login');
+const inputSenha = document.querySelector('.input-senha');
+const button = document.querySelector('.btn');
 
-buttonLogin.addEventListener('click', () => {
-  const login = document.querySelector('[name=email]');
-  const senha = document.querySelector('[name=password]');
-  if (login.value === 'tryber@teste.com' && senha.value === '123456') {
+function loginVerification() {
+  if (
+    inputLogin.value === 'tryber@teste.com'
+    && inputSenha.value === '123456'
+  ) {
     alert('Olá, Tryber!');
   } else {
-    alert('Email ou senha inválidos.');
+    alert('Login ou senha inválidos.');
   }
-});
+}
+
+button.addEventListener('click', loginVerification);

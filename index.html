@@ -12,11 +12,66 @@
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-      <input id="email" type="email" name="email" placeholder="Email">
-      <input id="password" type="password" name="password" placeholder="Password">
-      <button id="btn">Entrar</button>
+      <input class="input-login" type="email" name="email" placeholder="Email">
+      <input class="input-password" type="password" name="password" placeholder="Password">
+      <button class="btn">Entrar</button>
     </form>
-  </header>
+    </header>
 
+    <main>
+    <!--requisito 12-->
+    <div>
+      <label id="label-family">Qual sua família?</label>
+      <label class="label-container" for="frontend">
+        Família Frontend
+        <input id="frontend" type="radio" value="Frontend" name="family" />
+      </label>
+      <label class="label-container" for="backend">
+        Família Backend
+        <input id="backend" type="radio" value="Backend" name="family" />
+      </label>
+      <label class="label-container" for="fullStack">
+        Família FullStack
+        <input id="fullStack" type="radio" value="FullStack" name="family" />
+      </label>
+    </div>
+
+    <!--requisito 13-->
+    <div>
+      <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+      <div>
+        <label for="hofs">
+          <input id="hofs" name="content" type="checkbox" class="subject" value="HoFs" />
+          HoFs
+        </label>
+        <label for="jest">
+          <input id="jest" name="content" type="checkbox" class="subject" value="Jest" />
+          Jest
+        </label>
+        <label for="promises">
+          <input id="promises" name="content" type="checkbox" class="subject" value="Promises" />
+          Promises
+        </label>
+      </div>
+      <div>
+        <label for="react">
+          <input id="react" name="content" type="checkbox" class="subject" value="React" />
+          React
+        </label>
+        <label for="sql">
+          <input id="sql" name="content" type="checkbox" class="subject" value="SQL" />
+          SQL
+        </label>
+        <label for="python">
+          <input id="python" name="content" type="checkbox" class="subject" value="Python" />
+          Python
+        </label>
+      </div>
+    </div>
+
+    </main>
+
+    <!--requisito 19-->
+    <footer id="agreement">Direitos reservados à Trybewarts©</footer>
 </body>
 </html>
