@@ -1,13 +1,26 @@
-const inputLogin = document.querySelector('input-login');
-const inputSenha = document.querySelector('.input-senha');
-const button = document.querySelector('.btn');
+const buttonLogin = document.getElementById('btn');
+let buttonSubmit = document.getElementById('submit-btn')
+let agreementCheck = document.getElementById('agreement')
 
-function loginVerification() {
-  if (inputLogin.value === 'tryber@teste.com' && inputSenha.value === '123456') {
+
+buttonLogin.addEventListener('click', () => {
+  const login = document.querySelector('[name=email]');
+  const senha = document.querySelector('[name=password]');
+  if (login.value === 'tryber@teste.com' && senha.value === '123456') {
     alert('Olá, Tryber!');
   } else {
-    alert('Login ou senha inválidos.');
+    alert('Email ou senha inválidos.');
   }
+});
+
+window.onload = buttonSubmit.disabled = true
+function buttonSubmitDisabledOrEnabled() {
+    if (agreementCheck.checked === true) {
+        buttonSubmit.disabled = false
+    }
+    else if (agreementCheck.checked === false) {
+        buttonSubmit.disabled = true
+}
 }
 
-button.addEventListener('click', loginVerification);
+agreementCheck.addEventListener('click', buttonSubmitDisabledOrEnabled)

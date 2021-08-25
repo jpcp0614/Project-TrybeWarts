@@ -55,12 +55,43 @@ main {
 .title-form {
   text-align: center;
 }
-
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+  margin: 30px;
 }
+
+#evaluation-form input {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.container-name {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+
+}
+
+#rate {
+  margin:30px 0px;    
+}
+
+#coments {
+  display: flex;
+  flex-direction: column;
+}
+
+#coments textarea {
+  width: 500px;
+  height: 100px;
+}
+
 
 
 main #trybewarts-forms-logo {
