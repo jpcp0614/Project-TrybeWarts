@@ -52,14 +52,14 @@ main {
   margin-top: 10px;
 }
 
-.title-form {
+/* .title-form {
   text-align: center;
-}
+} */
+
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: column; /* flex-wrap: wrap; */
   flex-basis: 30%;
   margin: 30px;
 }
