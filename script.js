@@ -1,7 +1,6 @@
 const buttonLogin = document.getElementById('btn');
-let buttonSubmit = document.getElementById('submit-btn')
-let agreementCheck = document.getElementById('agreement')
-
+const buttonSubmit = document.getElementById('submit-btn');
+const agreementCheck = document.getElementById('agreement');
 
 buttonLogin.addEventListener('click', () => {
   const login = document.querySelector('[name=email]');
@@ -13,14 +12,13 @@ buttonLogin.addEventListener('click', () => {
   }
 });
 
-window.onload = buttonSubmit.disabled = true
+buttonSubmit.disabled = true;
+window.onload = buttonSubmit.disabled;
 function buttonSubmitDisabledOrEnabled() {
-    if (agreementCheck.checked === true) {
-        buttonSubmit.disabled = false
-    }
-    else if (agreementCheck.checked === false) {
-        buttonSubmit.disabled = true
+  if (agreementCheck.checked === true) {
+    buttonSubmit.disabled = false;
+  } else if (agreementCheck.checked === false) {
+    buttonSubmit.disabled = true;
+  }
 }
-}
-
-agreementCheck.addEventListener('click', buttonSubmitDisabledOrEnabled)
+agreementCheck.addEventListener('click', buttonSubmitDisabledOrEnabled);
