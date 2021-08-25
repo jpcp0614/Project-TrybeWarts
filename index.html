@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <title>Trybewarts</title>
 </head>
 <body>
@@ -16,9 +17,9 @@
       <input class="input-password" type="password" name="password" placeholder="Password">
       <button class="btn">Entrar</button>
     </form>
-    </header>
-
-    <main>
+  </header>
+   <main>
+     <h2 class="title-form">Formulário de Avaliação</h2>
     <!--requisito 12-->
     <div>
       <label id="label-family">Qual sua família?</label>
@@ -73,5 +74,43 @@
 
     <!--requisito 19-->
     <footer id="agreement">Direitos reservados à Trybewarts©</footer>
+
+  </header>
+  <main>
+    <form action="" id="evaluation-form">
+        <input type="text" name="username" id="input-name" placeholder="Nome">
+        <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
+        <input type="text" name="usermail" id="input-email" placeholder="Email">
+        <label for="house">Casa: </label>
+        <select name="house" id="house">
+            <option value="Gitnoria" id="gitnoria-house">Gitnoria</option>
+            <option value="Reactpúff" id="reactpuff-house">Reactpúff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+    </form>
+    <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+  </main>
+  <section id="rate">
+      <form action="">
+        <label for="">Como você avalia a Trybewarts? </label>
+        <input type="radio" name="rate" id="1">1
+        <input type="radio" name="rate" id="1">2
+        <input type="radio" name="rate" id="1">3
+        <input type="radio" name="rate" id="1">4
+        <input type="radio" name="rate" id="1">5
+        <input type="radio" name="rate" id="1">6
+        <input type="radio" name="rate" id="1">7
+        <input type="radio" name="rate" id="1">8
+        <input type="radio" name="rate" id="1">9
+        <input type="radio" name="rate" id="1">10
+      </form>
+  </section>
+  <section id="coments">
+      <label for="coments" id="textarea">Deixe seu comentario: </label>
+      <textarea name="coments" id="" cols="20" rows="8" maxlength="500"></textarea>
+  </section>
+
+  
 </body>
 </html>
