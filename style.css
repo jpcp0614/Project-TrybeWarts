@@ -57,10 +57,14 @@ main {
   margin-top: 10px;
 }
 
+<<<<<<< HEAD
 #evaluation-form {
 <<<<<<< HEAD
   display: flex;
 =======
+=======
+main form {
+>>>>>>> b4fcd4bf577080e2f8bbd7599f7116f2d155ca55
   width: 675px;
 >>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
   flex-direction: column;
