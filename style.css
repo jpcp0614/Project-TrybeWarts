@@ -50,15 +50,16 @@ form {
   justify-content: center;
 }
 
-main {
+#evaluation-form {
   display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
   margin-top: 10px;
   width: 675px;
 }
 
-main form {
-  flex-direction: column;
-  flex-basis: 30%;
+main {
+  display: flex;
   margin-top: 10px;
   width: 675px;
 }
