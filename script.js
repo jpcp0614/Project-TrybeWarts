@@ -2,6 +2,7 @@ const buttonLogin = document.getElementById('btn');
 const buttonSubmit = document.getElementById('submit-btn');
 const agreementCheck = document.getElementById('agreement');
 
+// button Entrar
 buttonLogin.addEventListener('click', () => {
   const login = document.querySelector('[name=email]');
   const senha = document.querySelector('[name=password]');
