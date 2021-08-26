@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+form {
+  display: flex;
+}
+
 #input-login , #input-password {
   border: none;
   border-radius: 6px;
@@ -22,10 +26,6 @@
   margin-right: 10px;
   height: 30px;
   width: 120px;
-}
-
-.trybewarts-login {
-  display: flex;
 }
 
 .trybewarts-header-logo {
@@ -48,10 +48,6 @@ main {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
-}
-
-form {
-  display: flex;
 }
 
 #evaluation-form {
