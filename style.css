@@ -24,18 +24,16 @@
   width: 120px;
 }
 
-.trybewarts-login {
+.trybewarts-login { /* já está a direita do logo */
   display: flex;
 }
 
 .trybewarts-header-logo {
   width: 60px;
-  margin-left: 10px;
 }
 
 #trybewarts-header-title {
   color: rgb(239, 239, 239);
-  text-align: center;
 }
 
 /* -------------- */
@@ -53,21 +51,12 @@ main {
   margin-top: 10px;
 }
 
-/* .title-form {
-  text-align: center;
-} */
-
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column; /* flex-wrap: wrap; */
+  flex-direction: column;
   flex-basis: 30%;
   margin: 30px;
-}
-
-#evaluation-form input {
-  margin-right: 30px;
-  margin-bottom: 10px;
 }
 
 .container-name {
