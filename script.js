@@ -1,26 +1,32 @@
-const buttonLogin = document.getElementById('btn');
-let buttonSubmit = document.getElementById('submit-btn')
-let agreementCheck = document.getElementById('agreement')
 
-
-buttonLogin.addEventListener('click', () => {
-  const login = document.querySelector('[name=email]');
-  const senha = document.querySelector('[name=password]');
-  if (login.value === 'tryber@teste.com' && senha.value === '123456') {
-    alert('Olá, Tryber!');
-  } else {
-    alert('Email ou senha inválidos.');
-  }
-});
-
-window.onload = buttonSubmit.disabled = true
-function buttonSubmitDisabledOrEnabled() {
-    if (agreementCheck.checked === true) {
-        buttonSubmit.disabled = false
+function handleLoad() {
+  const buttonLogin = document.getElementById('btn');
+  const buttonSubmit = document.getElementById('submit-btn');
+  const agreementCheck = document.getElementById('agreement');
+  buttonLogin.addEventListener('click', () => {
+    const login = document.querySelector('[name=email]');
+    const senha = document.querySelector('[name=password]');
+    if (login.value === 'tryber@teste.com' && senha.value === '123456') {
+      alert('Olá, Tryber!');
+    } else {
+      alert('Email ou senha inválidos.');
     }
-    else if (agreementCheck.checked === false) {
-        buttonSubmit.disabled = true
-}
+    
+  });
+  buttonSubmit.disabled = true;
+  agreementCheck.addEventListener('click', buttonSubmitDisabledOrEnabled);
+} 
+
+window.onload = handleLoad
+
+function buttonSubmitDisabledOrEnabled() {
+  const buttonSubmit = document.getElementById('submit-btn');
+  const agreementCheck = document.getElementById('agreement');
+  agreementCheck
+  if (agreementCheck.checked === true) {
+    buttonSubmit.disabled = false;
+  } else if (agreementCheck.checked === false) {
+    buttonSubmit.disabled = true;
+  }
 }
 
-agreementCheck.addEventListener('click', buttonSubmitDisabledOrEnabled)
