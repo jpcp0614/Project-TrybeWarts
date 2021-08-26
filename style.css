@@ -57,29 +57,18 @@ main {
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
 #evaluation-form {
-<<<<<<< HEAD
   display: flex;
-=======
-=======
-main form {
->>>>>>> b4fcd4bf577080e2f8bbd7599f7116f2d155ca55
-  width: 675px;
->>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
   flex-direction: column;
   flex-basis: 30%;
   margin-top: 10px;
   margin-left: 200px;
 }
 
-<<<<<<< HEAD
 #evaluation-form input {
   margin-bottom: 10px;
 }
 
-=======
->>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
 .container-name {
   display: flex;
 }
@@ -90,15 +79,9 @@ main form {
   height: 500px;
 }
 
-<<<<<<< HEAD
 #rate {
   display: flex;
   margin: 30px 0px;    
-=======
-#label-rate {
-  display: flex;
-  margin: 30px 0;
->>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
 }
 
 #coments {
@@ -111,7 +94,6 @@ main form {
   height: 100px;
 }
 
-<<<<<<< HEAD
 
 .container-label-family {
   display: flex;
@@ -125,5 +107,3 @@ main form {
   display: flex;
   flex-direction: column;
 }
-=======
->>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
