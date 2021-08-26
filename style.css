@@ -24,7 +24,7 @@
   width: 120px;
 }
 
-.trybewarts-login { /* já está a direita do logo */
+.trybewarts-login {
   display: flex;
 }
 
@@ -36,7 +36,6 @@
   color: rgb(239, 239, 239);
 }
 
-/* -------------- */
 
 /* MAIN */
 .title-form {
@@ -67,6 +66,8 @@ form {
 }
 
 #trybewarts-forms-logo {
+  display: flex;
+  align-content: right;
   height: 500px;
 
 }
@@ -86,8 +87,3 @@ form {
   height: 100px;
 }
 
-main #trybewarts-forms-logo {
-  display: flex;
-  align-content: right;
-  height: 500px;
-}
