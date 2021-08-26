@@ -50,7 +50,7 @@ main {
   margin-top: 10px;
 }
 
-#evaluation-form {
+main form {
   width: 675px;
   flex-direction: column;
   flex-basis: 30%;
