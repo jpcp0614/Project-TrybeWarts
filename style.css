@@ -53,6 +53,9 @@ main {
 
 form {
   display: flex;
+}
+
+#evaluation-form {
   width: 675px;
   flex-direction: column;
   flex-basis: 30%;
@@ -68,7 +71,8 @@ form {
 
 }
 
-#rate {
+#label-rate {
+  display: flex;
   margin: 30px 0;
 }
 
