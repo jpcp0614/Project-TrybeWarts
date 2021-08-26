@@ -5,30 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
   <title>Trybewarts</title>
 </head>
+
 <body>
   <!-- HEADER -->
+  <!-- Requisistos 1, 2, 3, 4 -->
   <header class="header">
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
+<<<<<<< HEAD
       <input class="input-login" type="email" name="email" placeholder="Email">
       <input class="input-password" type="password" name="password" placeholder="Password">
+=======
+      <input id="input-login" type="email" name="email" placeholder="Email">
+      <input id="input-password" type="password" name="password" placeholder="Senha">
+>>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
       <button id="btn">Entrar</button>
     </form>
   </header>
 
   <!-- MAIN -->
   <main>
-    
+    <!-- Requisito 5, 8 -->
     <form action="" id="evaluation-form">
+<<<<<<< HEAD
       <div class="container-name">
         <input type="text" name="username" id="input-name" placeholder="Nome">
         <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
       </div>
+=======
+      <input type="text" name="username" id="input-name" placeholder="Nome">
+      <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
+>>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
       <input type="text" name="usermail" id="input-email" placeholder="Email">
+      
+      <!-- Requisito 9 -->
       <label for="house">Casa: </label>
       <select name="house" id="house">
         <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -36,6 +49,7 @@
         <option value="Corvinode" id="corvinode-house">Corvinode</option>
         <option value="Pytherina" id="pytherina-house">Pytherina</option>
       </select>
+<<<<<<< HEAD
     </form>
     <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
   </main>
@@ -85,34 +99,59 @@
     <!--requisito 13-->
     <div>
       <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+=======
+
+      <!-- Requisito 12 -->
+>>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
       <div>
-        <label for="hofs">
-          <input id="hofs" name="content" type="checkbox" class="subject" value="HoFs" />
-          HoFs
+        <label id="label-family">Qual sua família?</label>
+        <label class="label-container" for="frontend">
+          Família Frontend
+          <input id="frontend" type="radio" value="Frontend" name="family" />
         </label>
-        <label for="jest">
-          <input id="jest" name="content" type="checkbox" class="subject" value="Jest" />
-          Jest
+        <label class="label-container" for="backend">
+          Família Backend
+          <input id="backend" type="radio" value="Backend" name="family" />
         </label>
-        <label for="promises">
-          <input id="promises" name="content" type="checkbox" class="subject" value="Promises" />
-          Promises
+        <label class="label-container" for="fullStack">
+          Família FullStack
+          <input id="fullStack" type="radio" value="FullStack" name="family" />
         </label>
       </div>
+
+      <!-- Requisito 13 -->
       <div>
-        <label for="react">
-          <input id="react" name="content" type="checkbox" class="subject" value="React" />
-          React
-        </label>
-        <label for="sql">
-          <input id="sql" name="content" type="checkbox" class="subject" value="SQL" />
-          SQL
-        </label>
-        <label for="python">
-          <input id="python" name="content" type="checkbox" class="subject" value="Python" />
-          Python
-        </label>
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <div>
+          <label for="hofs">
+            <input id="hofs" name="content" type="checkbox" class="subject" value="HoFs" />
+            HoFs
+          </label>
+          <label for="jest">
+            <input id="jest" name="content" type="checkbox" class="subject" value="Jest" />
+            Jest
+          </label>
+          <label for="promises">
+            <input id="promises" name="content" type="checkbox" class="subject" value="Promises" />
+            Promises
+          </label>
+        </div>
+        <div>
+          <label for="react">
+            <input id="react" name="content" type="checkbox" class="subject" value="React" />
+            React
+          </label>
+          <label for="sql">
+            <input id="sql" name="content" type="checkbox" class="subject" value="SQL" />
+            SQL
+          </label>
+          <label for="python">
+            <input id="python" name="content" type="checkbox" class="subject" value="Python" />
+            Python
+          </label>
+        </div>
       </div>
+<<<<<<< HEAD
     </div>
 
     <!-- --requisitos 14, 15, 16, 17 e 18-- -->
@@ -120,18 +159,34 @@
     <label for="coments" id="textarea">Deixe seu comentario: </label>
     <textarea name="coments" id="" cols="20" rows="8" maxlength="500"></textarea>
   </section>
+=======
+      <!-- Requisito 14 -->
+      <label id="label-rate" for="label-rate">Como você avalia a Trybewarts?
+        <input type="radio" name="rate" value="1">1
+        <input type="radio" name="rate" value="2">2
+        <input type="radio" name="rate" value="3">3
+        <input type="radio" name="rate" value="4">4
+        <input type="radio" name="rate" value="5">5
+        <input type="radio" name="rate" value="6">6
+        <input type="radio" name="rate" value="7">7
+        <input type="radio" name="rate" value="8">8
+        <input type="radio" name="rate" value="9">9
+        <input type="radio" name="rate" value="10">10
+      </label>
+    </form>
+    <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
+  </main>
+  <!-- Requisito 16 -->
+>>>>>>> 0f122d125c33d3d92aaf67ba37fbfe554044ae89
   <section>
     <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
     <input type="checkbox" name="agreement" id="agreement">
   </section>
+  <!-- Requisito 17 -->
   <button type="submit" id="submit-btn">Enviar</button>
 
-    <!--requisito 19-->
-    <footer id="agreement">Direitos reservados à Trybewarts©</footer>
-    <script src="script.js"></script>
-  </header>
-  
-
-  
+  <!--requisito 19-->
+  <footer id="agreement">Direitos reservados à Trybewarts©</footer>
+  <script src="script.js"></script>
 </body>
 </html>
