@@ -3,6 +3,7 @@ const buttonSubmit = document.getElementById('submit-btn');
 const agreementCheck = document.getElementById('agreement');
 
 // button Entrar
+// Requisito 3 OK
 buttonLogin.addEventListener('click', () => {
   const login = document.querySelector('[name=email]');
   const senha = document.querySelector('[name=password]');
