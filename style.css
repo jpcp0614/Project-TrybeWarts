@@ -81,7 +81,7 @@ main {
 
 #rate {
   display: flex;
-  margin: 30px 0px;    
+  margin: 30px 0;
 }
 
 #coments {

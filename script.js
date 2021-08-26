@@ -1,3 +1,12 @@
+function buttonSubmitDisabledOrEnabled() {
+  const buttonSubmit = document.getElementById('submit-btn');
+  const agreementCheck = document.getElementById('agreement');
+  if (agreementCheck.checked === true) {
+    buttonSubmit.disabled = false;
+  } else if (agreementCheck.checked === false) {
+    buttonSubmit.disabled = true;
+  }
+}
 
 function handleLoad() {
   const buttonLogin = document.getElementById('btn');
@@ -11,21 +20,8 @@ function handleLoad() {
     } else {
       alert('Email ou senha inválidos.');
     }
-    
   });
   buttonSubmit.disabled = true;
   agreementCheck.addEventListener('click', buttonSubmitDisabledOrEnabled);
-} 
-
-window.onload = handleLoad
-
-function buttonSubmitDisabledOrEnabled() {
-  const buttonSubmit = document.getElementById('submit-btn');
-  const agreementCheck = document.getElementById('agreement');
-  agreementCheck
-  if (agreementCheck.checked === true) {
-    buttonSubmit.disabled = false;
-  } else if (agreementCheck.checked === false) {
-    buttonSubmit.disabled = true;
-  }
 }
+window.onload = handleLoad;
