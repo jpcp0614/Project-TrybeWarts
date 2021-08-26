@@ -53,6 +53,7 @@ form {
 main {
   display: flex;
   margin-top: 10px;
+  width: 675px;
 }
 
 main form {
@@ -71,11 +72,12 @@ main form {
 }
 
 #trybewarts-forms-logo {
-  display: flex;
   height: 500px;
+  position: absolute;
+  left: 60%;
 }
 
-#rate {
+#label-rate {
   display: flex;
   margin: 30px 0;
 }
