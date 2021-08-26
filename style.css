@@ -40,8 +40,8 @@
 
 /* MAIN */
 .title-form {
-  color: rgb(51, 49, 49);
   display: flex;
+  color: rgb(51, 49, 49);
   justify-content: center;
 }
 
