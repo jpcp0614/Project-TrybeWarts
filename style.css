@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.header form input {
+#input-login , #input-password {
   border: none;
   border-radius: 6px;
   margin-right: 10px;
@@ -14,7 +14,7 @@
   width: 120px;
 }
 
-.header button {
+#btn {
   background-color: rgb(78, 44, 131);
   border: none;
   border-radius: 6px;
