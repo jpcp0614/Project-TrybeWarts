@@ -25,3 +25,12 @@ function handleLoad() {
   agreementCheck.addEventListener('click', buttonSubmitDisabledOrEnabled);
 }
 window.onload = handleLoad;
+
+const textArea = document.getElementById('textarea');
+const numarate = document.getElementById('counter');
+
+function characterCounter() {
+  const counterTextArea = 500 - textArea.value.length;
+  numarate.innerText = counterTextArea;
+}
+textArea.addEventListener('keyup', characterCounter);

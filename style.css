@@ -97,6 +97,9 @@ main {
   height: 100px;
 }
 
+#counter {
+  margin-bottom: 20px;
+}
 
 .container-label-family {
   display: flex;
