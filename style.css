@@ -74,8 +74,13 @@ main {
 }
 
 .avaliation {
+  display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.avaliation-label {
+  margin-left: 10px;
 }
 
 #label-rate {
