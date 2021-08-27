@@ -26,11 +26,11 @@ function handleLoad() {
 }
 window.onload = handleLoad;
 
-const textArea = document.getElementById('textarea');
-const numarate = document.getElementById('counter');
+// const textArea = document.getElementById('textarea');
+// const numarate = document.getElementById('counter');
 
-function characterCounter() {
-  const counterTextArea = 500 - textArea.value.length;
-  numarate.innerText = counterTextArea;
-}
-textArea.addEventListener('keyup', characterCounter);
+// function characterCounter() {
+//   const counterTextArea = 500 - textArea.value.length;
+//   numarate.innerText = counterTextArea;
+// }
+// textArea.addEventListener('keyup', characterCounter);
